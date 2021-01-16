@@ -226,6 +226,16 @@ a[href^="tel:"] {
     text-align: center;
 }
 
+.mobile-small {
+    font-size: 80%;
+}
+
+@media (min-width: 576px) {
+    .mobile-small {
+        font-size: 100%;
+    }
+}
+
 @media (min-width: 768px) {
     .work-exp-content div > div:last-child {
         text-align: right;

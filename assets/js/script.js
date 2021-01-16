@@ -1,0 +1,5 @@
+app.ready(() => {
+
+    AOS.init();
+
+});
